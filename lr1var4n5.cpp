@@ -17,7 +17,7 @@ int main(){
    cin >> e;
    cout<< "f - ";
    cin >> f;
-   x = (c&&e)|| !d ^ f;
-   cout<< "(c V e) ^ !d+f ="<< showbase<< hex<< setw(2) << x<< endl;
+   x = (c&e)| ~d ^ f;
+   cout<< "(c /\ e) ^ !d+f ="<< showbase<< hex<< setw(2) << x<< endl;
     return 0;
 }
