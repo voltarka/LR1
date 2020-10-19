@@ -2,10 +2,10 @@
 # include <iomanip>
 using namespace std;
 int  main(){
-    char k;
-    char l;
-    char m;
-    char n;
+    bool k;
+    bool l;
+    bool m;
+    bool n;
 bool x;
 
 cout<<"Hello! Please, enter 1 (true) or 0 (false) soo we can count the next example";
