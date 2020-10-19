@@ -18,7 +18,7 @@ cout<< "m - ";
 cin >> m;
 cout<< "n - ";
 cin >> n;
-x = n || (m^k) && !l;
+x = n | (~m|k & m|~k) & ~l;
 
 cout<< "n V (m+k) ^ l! = "<< boolalpha << x;
 cout<< endl;
