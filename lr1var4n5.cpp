@@ -18,6 +18,6 @@ int main(){
    cout<< "f - ";
    cin >> f;
    x = (c&e)| (~d) ^ f;
-   cout<< "(c /\ e) ^ !d+f ="<< showbase<< hex<< setw(2) << x<<internal<< endl;
+   cout<< "(c ^ e) ^ !d+f ="<< showbase<< hex<< setw(2) << x<<internal<< endl;
     return 0;
 }
